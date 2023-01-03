@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/96651e64b5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js" defer></script>
+    <title>Game</title>
+</head>
+
+<body>
+    <main>
+
+        <article>
+            <div class="container instructions" id="result">
+                <h1 class="event">Home</h1>
+                <h2 class="margin"></h2>
+                <input type="button" value="Easy">
+                <input type="button" value="Moderate">
+                <input type="button" value="Hard">
+            </div>
+            <div class="container result" id="result">
+                <h1 class="event"></h1>
+                <h2 class="margin"></h2>
+                <input type="button" value="Resume">
+                <input type="button" value="Replay">
+                <input type="button" value="Home">
+            </div>
+
+            <div class="container">
+                <div id="run-wicket" class="sub-container"></div>
+                <button class="pause"><i class="fas fa-pause" class="pause-btn"></i></button>
+                <div id="overs" class="sub-container"></div>
+            </div>
+
+            <div class="container">
+                <div id="target" class="sub-container"></div>
+                <div id="need-off" class="sub-container"></div>
+            </div>
+
+            <div class="container">
+                <div id="last-balls" class="sub-container"></div>
+            </div>
+
+            <div class="container" id="run-display">
+                <div><input value="0" type="number" id="computer" disabled></div>
+                <div><input value="0" type="number" id="player" disabled></div>
+            </div>
+
+            <div class="container" id="run-button">
+                <input type="button" value="1">
+                <input type="button" value="2">
+                <input type="button" value="3">
+                <input type="button" value="4">
+                <input type="button" value="5">
+                <input type="button" value="6">
+            </div>
+
+        </article>
+    </main>
+</body>
+
+</html>
